@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulários</title>
+</head>
+<body>
+	<form action="processa.php" method="post">
+
+		<label>Text</label>
+		<input type="text" name="texto1" placeholder="Eu sou um input">
+		<br>
+		<label>Senha</label>
+		<input type="password" name="senha" placeholder="Eu sou um input">
+		<br>
+		<label>escondido</label>
+		<input type="hidden" name="escondido">
+		<br>
+		<select>
+			<option value="opcao 1">opcao1</option>
+			<option value="opcao 2">opcao2</option>
+			<option value="opcao 3">opcao3</option>
+		</select>
+		<br>
+		<input type="radio" name="radio1" value="1">valor 1<br>
+		<input type="radio" name="radio1" value="2">valor 2
+
+		<br>
+
+		<input type="checkbox" name="ck1" value="1">valor1<br>
+		<input type="checkbox" name="ck1" value="2">valor2<br>
+		<input type="checkbox" name="ck1" value="3">valor3<br>
+
+		<input type="submit" value="Enviar" name="submit">
+	</form>
+</body>
+</html>
